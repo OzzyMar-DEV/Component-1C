@@ -11,7 +11,7 @@ body {
     height: 115.25vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.75fr 1.75fr 1.0fr 1.0fr 0.8fr;
+    grid-template-rows: 0.50fr 2fr 1.0fr 1.0fr 0.8fr;
     grid-template-areas:
     "nav nav nav"
     "hero hero hero"
