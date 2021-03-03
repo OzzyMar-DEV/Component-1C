@@ -60,6 +60,7 @@ nav {
     right: 0;
     bottom: 0;
 }
+
 #previous_button {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -83,10 +84,12 @@ footer {
         height: 50px;
         width: 75px;
     }
+
     #previous_button {
         height: 50px;
         width: 75px;
     }
+
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: 10% 20% 45% 25%;
