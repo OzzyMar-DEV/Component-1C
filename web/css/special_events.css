@@ -18,7 +18,7 @@ body {
     grid-template-areas:
     "nav"
     "hero"
-    "food_locations"
+    "special_events"
     "footer";
     grid-gap: 0.5rem;
     font-weight: 800;
@@ -42,9 +42,9 @@ nav {
     padding-top: var(--main-padding);
 }
 
-#food_locations {
+#special_events {
     background: #6fffd2;
-    grid-area: food_locations;
+    grid-area: special_events;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     position: relative;
@@ -93,7 +93,7 @@ footer {
         grid-template-areas:
       "nav"
       "hero"
-      "food_locations"
+      "special_events"
       "footer";
     }
 }
