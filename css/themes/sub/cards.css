@@ -1,0 +1,12 @@
+.card {
+    transition: 0.4s;
+}
+.card .card-title-center {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card:hover {
+    transform: scale(0.95, 0.95);
+}
