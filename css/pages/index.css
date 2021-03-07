@@ -1,29 +1,18 @@
-:root {
-    font-family: "Inter", sans-serif;
-    --main-radius: 10px;
-    --main-padding: 5px;
-
-    margin: 10px;
-}
-
 .container {
-    height: 115.25vh;
+    height: 100vh;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.50fr 2fr 1.0fr 1.0fr 0.8fr;
+    grid-template-rows: 0.75fr 0.48fr 0.48fr 0.15fr;
     grid-template-areas:
-    "nav nav nav"
     "hero hero hero"
     "content1 content2 content3"
     "content4 content5 content6"
     "footer footer footer";
-    grid-gap: 0.5rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 12px;
-
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 0.5rem;
+    color: white;
     text-align: center;
-    color: #004d40;
 }
 
 .container a {
@@ -31,75 +20,54 @@
     color: inherit;
 }
 
-nav {
-    background: #1de9b6;
-    grid-area: nav;
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
-}
-
-.hero {
-    background: #84ffff;
-    grid-area: hero;
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
+.buttons {
+    grid-area: buttons;
 }
 
 #opening_times {
-    background: #6fffd2;
     grid-area: content1;
-    border-radius: var(--main-radius);
+    border-radius: 17px 0 0 0;
     padding-top: var(--main-padding);
 }
 
 #food_locations {
-    background: #6fffd2;
     grid-area: content2;
-    border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
 
 #special_events {
-    background: #6fffd2;
     grid-area: content3;
-    border-radius: var(--main-radius);
+    border-radius: 0 17px 0 0;
     padding-top: var(--main-padding);
 }
 
 #map {
-    background: #6fffd2;
     grid-area: content4;
-    border-radius: var(--main-radius);
+    border-radius: 0 0 0 17px;
     padding-top: var(--main-padding);
 }
 
 #client_area {
-    background: #6fffd2;
     grid-area: content5;
-    border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
 
 #assistance {
-    background: #6fffd2;
     grid-area: content6;
-    border-radius: var(--main-radius);
+    border-radius: 0 0 17px 0;
     padding-top: var(--main-padding);
 }
 
 footer {
-    background: #1de9b6;
     grid-area: footer;
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
 }
 
 @media only screen and (max-width: 550px) {
     .container {
+        height: 100vh;
         grid-template-columns: 1fr;
-        grid-template-rows: 10% 20% 10% 10% 10% 10% 10% 10% 8.75%;
+        grid-template-rows: 20% 10% 10% 10% 10% 10% 10% 8.75%;
         grid-template-areas:
-      "nav"
       "hero"
       "content1"
       "content2"
@@ -109,9 +77,7 @@ footer {
       "content6"
       "footer";
     }
-}
-
-::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
+    #opening_times, #food_locations, #special_events, #map, #client_area, #assistance {
+        border-radius: 15px;
+    }
 }

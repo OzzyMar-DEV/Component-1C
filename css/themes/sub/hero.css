@@ -1,0 +1,28 @@
+#hero {
+    grid-area: hero;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    padding-left: 15px;
+    text-align: left;
+}
+
+#hero h1 {
+    font-size: calc(1vw + 3.5rem);
+    font-weight: 300;
+    color: #373d46;
+}
+
+#hero p {
+    font-size: calc(1vw + 1.5rem);
+    color: #98a0ad;
+}
+
+@media only screen and (max-width: 550px) {
+    #hero h1 {
+        font-size: calc(1vw + 1.75rem);
+    }
+
+    #hero p {
+        color: transparent;
+    }
+}

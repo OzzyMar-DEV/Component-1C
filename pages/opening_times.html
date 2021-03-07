@@ -6,21 +6,65 @@
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <link href="../css/pages/opening_times.css" rel="stylesheet">
+    <link href="../css/themes/theme.css" rel="stylesheet">
     <title>DIT - COMP 1C</title>
 </head>
 <body>
 <div class="container">
-    <nav>
-        <h1>Navigation Bar</h1>
+    <nav id="nav">
+        <a id="home" class="fas fa-house-user fa-4x" href="../index.html"></a>
     </nav>
-    <div class="hero">
-        <h1>Hero</h1>
-    </div>
     <div id="opening_times">
-        <h1>Opening Times</h1>
+        <table>
+            <caption>Open/Close Times</caption>
+            <thead>
+            <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Open</th>
+                <th scope="col">Close</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td scope="row" data-label="Day">Monday</td>
+                <td data-label="Open">10am</td>
+                <td data-label="Close">9pm</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Day">Tuesday</td>
+                <td data-label="Open">10am</td>
+                <td data-label="Close">9pm</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Day">Wednesday</td>
+                <td data-label="Open">10am</td>
+                <td data-label="Close">9pm</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Day">Thursday</td>
+                <td data-label="Open">10am</td>
+                <td data-label="Close">9pm</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Day">Friday</td>
+                <td data-label="Open">10am</td>
+                <td data-label="Close">9pm</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Day">Saturday</td>
+                <td data-label="Open">9am</td>
+                <td data-label="Close">8pm</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Day">Sunday</td>
+                <td data-label="Open">11am</td>
+                <td data-label="Close">5pm</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
     <footer>
-        <h1>Footer</h1>
+        <p>© Copyright 2021 Oscar Dent. All rights reserved.</p>
     </footer>
 </div>
 </body>
