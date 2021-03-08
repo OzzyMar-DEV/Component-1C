@@ -1,3 +1,8 @@
+* {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
 .container {
     height: 100vh;
 
@@ -9,8 +14,8 @@
     "content1 content2 content3"
     "content4 content5 content6"
     "footer footer footer";
-    grid-row-gap: 0.5rem;
-    grid-column-gap: 0.5rem;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
     color: white;
     text-align: center;
 }
