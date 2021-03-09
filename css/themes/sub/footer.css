@@ -6,6 +6,11 @@ footer {
     padding-top: 5px;
 }
 
+footer .credits {
+    text-decoration: none;
+    color: lightcoral;
+}
+
 footer p {
     position: relative;
     top: 20%;

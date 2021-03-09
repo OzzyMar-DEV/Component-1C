@@ -5,6 +5,7 @@
     --main-radius: 10px;
     --main-padding: 5px;
     background: #eff1f7;
+    box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {

@@ -1,11 +1,11 @@
 .container {
-    height: 115vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5% 90% 5%;
+    grid-template-rows: 0.15fr 1fr 0.1fr;
     grid-template-areas:
     "nav"
-    "food_locations"
+    "credit"
     "footer";
     grid-gap: 0.5rem;
     font-size: 12px;
@@ -23,8 +23,8 @@
     left: 3.75rem;
 }
 
-#map {
-    grid-area: food_locations;
+#credit {
+    grid-area: credit;
 }
 
 footer {
@@ -37,7 +37,7 @@ footer {
         grid-template-rows: 0.15fr 1fr 0.1fr;
         grid-template-areas:
       "nav"
-      "food_locations"
+      "credit"
       "footer";
     }
     #home {
