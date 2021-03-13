@@ -16,6 +16,7 @@
 #nav {
     grid-area: nav;
 }
+
 #home {
     color: black;
     text-decoration: none;
@@ -44,6 +45,7 @@ footer {
       "map"
       "footer";
     }
+
     #home {
         position: relative;
         left: 2%;

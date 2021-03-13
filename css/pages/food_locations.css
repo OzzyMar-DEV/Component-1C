@@ -2,7 +2,7 @@
     height: 115vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5% 90% 5%;
+    grid-template-rows: 1fr 10fr 1fr;
     grid-template-areas:
     "nav"
     "food_locations"
@@ -16,6 +16,7 @@
 #nav {
     grid-area: nav;
 }
+
 #home {
     color: black;
     text-decoration: none;
@@ -40,6 +41,7 @@ footer {
       "food_locations"
       "footer";
     }
+
     #home {
         position: relative;
         left: 2%;
