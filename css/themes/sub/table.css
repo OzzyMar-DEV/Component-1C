@@ -1,7 +1,6 @@
 table {
     width: 100%;
     height: calc(1vw + 25em);
-    border: 1px solid #ffffff;
     table-layout: fixed;
 }
 
@@ -12,7 +11,6 @@ table caption {
 
 table tr {
     background-color: #f8f8f8;
-    border: 1px solid #ddd;
     padding: .35em;
 }
 
@@ -25,6 +23,8 @@ table th {
     font-size: calc(1vw + .75em);
     letter-spacing: .1em;
     text-transform: uppercase;
+    background-color: #5b54bf;
+    color: white;
 }
 
 table td {
