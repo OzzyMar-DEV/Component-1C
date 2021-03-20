@@ -5,7 +5,7 @@
     grid-template-rows: 0.25fr 1fr 1fr 0.25fr;
     grid-template-areas:
     "nav nav"
-    "login gift"
+    "login special"
     "signup special"
     "footer footer";
     grid-gap: 0.5rem;
@@ -30,14 +30,9 @@
     grid-area: login;
 }
 
-#gift-cards {
-    grid-area: gift;
-    background-color: #5b54bf;
-}
-
-#special-offers {
+#special-offer {
     grid-area: special;
-    background-color: #5b54bf;
+
 }
 
 #filler {
@@ -58,11 +53,12 @@ footer {
 @media only screen and (max-width: 550px) {
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
         grid-template-areas:
       "nav"
       "login"
       "signup"
+      "special"
       "footer";
     }
 
