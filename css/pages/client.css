@@ -39,13 +39,6 @@
     grid-area: filler;
 }
 
-#home {
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    left: 3.75rem;
-}
-
 footer {
     grid-area: footer;
 }

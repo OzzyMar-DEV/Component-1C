@@ -8,8 +8,9 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.75fr 0.48fr 0.48fr 0.15fr;
+    grid-template-rows:  0.5fr 0.75fr 0.48fr 0.48fr 0.15fr;
     grid-template-areas:
+    "nav nav nav"
     "hero hero hero"
     "content1 content2 content3"
     "content4 content5 content6"
@@ -28,6 +29,10 @@
 
 .buttons {
     grid-area: buttons;
+}
+
+nav {
+    grid-area: nav;
 }
 
 #opening_times {
@@ -72,8 +77,9 @@ footer {
     .container {
         height: 100vh;
         grid-template-columns: 1fr;
-        grid-template-rows: 20% 10% 10% 10% 10% 10% 10% 8.75%;
+        grid-template-rows: 4.375% 20% 10% 10% 10% 10% 10% 10% 4.375%;
         grid-template-areas:
+      "nav"
       "hero"
       "content1"
       "content2"

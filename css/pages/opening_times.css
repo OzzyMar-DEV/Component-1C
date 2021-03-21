@@ -17,13 +17,6 @@
     grid-area: nav;
 }
 
-#home {
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    left: 3.75rem;
-}
-
 #opening_times {
     grid-area: opening_times;
 }

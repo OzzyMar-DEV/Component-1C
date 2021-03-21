@@ -6,23 +6,65 @@
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <link href="../css/pages/special_events.css" rel="stylesheet">
+    <link href="../css/themes/theme.css" rel="stylesheet">
     <title>DIT - COMP 1C</title>
+
+    <script type="text/javascript" src="../vendors/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="../js/lang.js"></script>
 </head>
 <body>
 <div class="container">
     <nav>
-        <h1>Navigation Bar</h1>
+        <a class="fas fa-house-user fa-4x" href="../index.html" id="home"></a>
+        <div id="google_translate_element"></div>
     </nav>
-    <div class="hero">
-        <h1>Hero</h1>
-    </div>
     <div id="special_events">
-        <h1>Special Events</h1>
-        <div id="next_button"></div>
-        <div id="previous_button"></div>
+        <div class="image-gallery">
+            <h1 class="title">UPCOMING EVENTS</h1>
+            <p>This is a collection of the most recent upcoming events @ STORE_NAME</p>
+
+            <div class="gal-item" style="background-image: url('../assets/images/grease.jpg')">
+                <div class="gal-item__overlay">
+                    <h2 class="gal-item__title">Cinema</h2>
+                    <span class="gal-item__desc">
+                        GREASE @ Daisy Dukes Drive In Cinema<br>TIME: Fri 16th April 2021, 18:30
+                    </span>
+                </div>
+            </div>
+
+            <div class="gal-item" style="background-image: url('../assets/images/show.jpg')">
+                <div class="gal-item__overlay">
+                    <h2 class="gal-item__title">The Show</h2>
+                    <span class="gal-item__desc">
+                        SHOW @ Meadowhall<br>TIME: Saturday, 17 April 2021, 20:00
+                    </span>
+                </div>
+            </div>
+
+            <div class="gal-item" style="background-image: url('../assets/images/dd.jpg')">
+                <div class="gal-item__overlay">
+                    <h2 class="gal-item__title">Cinema</h2>
+                    <span class="gal-item__desc">
+                        DIRTY DANCING @ Daisy Dukes Drive In Cinema<br>TIME: Sunday, 18 April 2021, 18:30
+                    </span>
+                </div>
+            </div>
+
+            <div class="gal-item" style="background-image: url('../assets/images/show.jpg')">
+                <div class="gal-item__overlay">
+                    <h2 class="gal-item__title">The Show</h2>
+                    <span class="gal-item__desc">
+                        SHOW @ Meadowhall<br>TIME: Saturday, 1 May 2021, 11:00
+                    </span>
+                </div>
+            </div>
+        </div>
     </div>
     <footer>
-        <h1>Footer</h1>
+        <p>
+            Created for the purposes of DIT - Component 1C Coursework
+        </p>
     </footer>
 </div>
 </body>

@@ -1,0 +1,21 @@
+nav #home {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 3.75rem;
+}
+
+nav #google_translate_element {
+    position: absolute;
+    right: 3.75rem;
+}
+
+@media only screen and (max-width: 550px) {
+    nav #home {
+        left: .75rem;
+    }
+
+    nav #google_translate_element {
+        right: .75rem;
+    }
+}

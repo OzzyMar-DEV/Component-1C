@@ -1,103 +1,42 @@
-:root {
-    font-family: "Inter", sans-serif;
-    --main-radius: 10px;
-    --main-padding: 5px;
-
-    margin: 10px;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-}
-
 .container {
-    height: 115.25vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.25fr 0.75fr 1.45fr 0.75fr;
+    grid-template-rows: 1fr 10fr 1fr;
     grid-template-areas:
     "nav"
-    "hero"
     "special_events"
     "footer";
     grid-gap: 0.5rem;
-    font-weight: 800;
-    text-transform: uppercase;
     font-size: 12px;
-    color: #004d40;
     text-align: center;
 }
 
-nav {
-    background: #1de9b6;
+#nav {
     grid-area: nav;
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
-}
-
-.hero {
-    background: #84ffff;
-    grid-area: hero;
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
 }
 
 #special_events {
-    background: #6fffd2;
     grid-area: special_events;
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
-    position: relative;
-}
-
-#next_button {
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
-    height: 150px;
-    width: 150px;
-    background-color: #004d40;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-#previous_button {
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
-    height: 150px;
-    width: 150px;
-    background-color: #004d40;
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 
 footer {
-    background: #1de9b6;
     grid-area: footer;
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
 }
 
 @media only screen and (max-width: 550px) {
-    #next_button {
-        height: 50px;
-        width: 75px;
-    }
-
-    #previous_button {
-        height: 50px;
-        width: 75px;
-    }
-
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: 10% 20% 45% 25%;
+        grid-template-rows: 0.15fr 1fr 0.1fr;
         grid-template-areas:
       "nav"
-      "hero"
       "special_events"
       "footer";
+    }
+
+    #home {
+        position: relative;
+        left: 2%;
     }
 }
 
