@@ -7,8 +7,3 @@
     background: #eff1f7;
     box-sizing: border-box;
 }
-
-::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
-}
