@@ -90,7 +90,7 @@
 .gal-item__desc {
     position: relative;
     display: block;
-    width: 90%;
+    width: 95%;
     top: 200px;
     padding: 10px;
     margin: 0 auto;
@@ -100,7 +100,7 @@
     text-align: center;
     /*border: 2px solid white;*/
     border-radius: 3px;
-    font-size: calc(1vw + .25rem);
+    font-size: calc(1vw + .15rem);
     transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
 }
 
