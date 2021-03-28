@@ -1,9 +1,0 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
-
-:root {
-    font-family: "Nunito", sans-serif;
-    --main-radius: 10px;
-    --main-padding: 5px;
-    background: #eff1f7;
-    box-sizing: border-box;
-}

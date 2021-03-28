@@ -1,4 +1,3 @@
-@import url("sub/main.css");
 @import url("sub/cards.css");
 @import url("sub/animation.css");
 @import url("sub/gallery.css");
@@ -8,3 +7,34 @@
 @import url("sub/login.css");
 @import url("sub/nav.css");
 @import url("../../vendors/fontawesome-free-5.15.2-web/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+
+:root {
+    font-family: "Nunito", sans-serif;
+    --main-radius: 10px;
+    --main-padding: 5px;
+    background: #eff1f7;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
